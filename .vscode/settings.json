@@ -1,0 +1,27 @@
+{
+    "git.ignoreLimitWarning": true
+}
+"terminal.integrated.profiles.windows": {
+    "PowerShell": { "source": "PowerShell", "icon": "terminal-powershell" },
+    "CommandPrompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "icon": "terminal-cmd"
+    },
+    "GitBash": {
+      "path": ["C:\\Program Files\\Git\\bin\\bash.exe"],
+      "source": "Git Bash",
+      "icon": "terminal-bash"
+    },
+    "Cmder": {
+      "path": "${env:windir}\\System32\\cmd.exe",
+      "args": ["/k", "C:\\cmder\\vendor\\bin\\vscode_init.cmd"]
+    }
+  },
+// Choose Default Terminal
+// "terminal.integrated.defaultProfile.windows": "Cmder"
+// "terminal.integrated.defaultProfile.windows": "GitBash"
+// "terminal.integrated.defaultProfile.windows": "CommandPrompt"
+// "terminal.integrated.defaultProfile.windows": "PowerShell",
